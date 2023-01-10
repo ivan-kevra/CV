@@ -1,0 +1,19 @@
+import React from 'react';
+import style from "../main/Main.module.css";
+
+
+export const Footer = () => {
+    return (
+        <div className={style.mainBlock}>
+            <div className={styleContainer.container}>
+                <div className={style.text}>
+                    <span>Hi there</span>
+                    <h1>I am Ivan Kevra</h1>
+                    <p>Frond-end developer</p>
+                </div>
+                <div className={style.photo}></div>
+            </div>
+
+        </div>
+    );
+};
